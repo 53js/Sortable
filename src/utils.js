@@ -500,7 +500,7 @@ function clone(el) {
 		return $(el).clone(true)[0];
 	}
 	else {
-		return el.cloneNode(true);
+		return document.createElement('div');
 	}
 }
 
